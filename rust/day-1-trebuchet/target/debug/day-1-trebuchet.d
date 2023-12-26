@@ -1,1 +1,1 @@
-/home/renas/personal/git/rust/advent-of-code-23/rust/day-1-trebuchet/target/debug/day-1-trebuchet: /home/renas/personal/git/rust/advent-of-code-23/rust/day-1-trebuchet/src/main.rs
+C:\Users\Usuário\Documents\Renan\ =)\advent-of-code-23\rust\day-1-trebuchet\target\debug\day-1-trebuchet.exe: C:\Users\Usuário\Documents\Renan\ =)\advent-of-code-23\rust\day-1-trebuchet\src\lib.rs C:\Users\Usuário\Documents\Renan\ =)\advent-of-code-23\rust\day-1-trebuchet\src\main.rs C:\Users\Usuário\Documents\Renan\ =)\advent-of-code-23\rust\day-1-trebuchet\src\part2.rs

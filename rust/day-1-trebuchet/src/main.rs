@@ -1,14 +1,7 @@
-use std::fs;
+// Thats not the most performatic and organized code, but works.
+
+use day_1_trebuchet::part2;
 
 fn main() {
-    let path = "input.txt";
-    let content = fs::read_to_string(path).expect("Unable to open input file");
-
-    let accumulator = 0;
-
-    for (index, line) in content.lines().enumerate() {
-        println!("{} - {}", index, line);
-
-        
-    }
+   println!("Part 2 result: {}", part2::resolve());
 }
