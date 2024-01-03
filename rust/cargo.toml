@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "./day-1-trebuchet",
+    "./day-2-cube-conundrum",
+    "./day-3-gear-ratios",
+    "./day-4-scratchcards",
+    "./day-6-wait-for-it",
+    "./day-7-camel-cards"
+]
