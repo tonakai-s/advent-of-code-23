@@ -9,7 +9,7 @@ pub fn resolve() {
     for line in content.lines() {
         let (cards, mut bid): (&str, &str) = line.split_at(line.find(" ").unwrap());
         bid = bid.trim();
-        hands.push(common::Hand::new(cards, bid, false));
+        hands.push(common::Hand::new(cards, bid, true));
     }
 
     common::bubble_sort_hands(&mut hands, get_card_power);
@@ -19,7 +19,7 @@ pub fn resolve() {
         accum += hand.bid as usize * (idx + 1);
     }
 
-    println!("Part 1 result: {accum}");
+    println!("Part 2 result: {accum}");
 }
 
 fn get_card_power(card: &char) -> u8 {
@@ -31,7 +31,7 @@ fn get_card_power(card: &char) -> u8 {
         'A' => 14,
         'K' => 13,
         'Q' => 12,
-        'J' => 11,
+        'J' => 1,
         _ => 10
     }
 }
