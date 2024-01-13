@@ -5,5 +5,6 @@ members = [
     "./day-3-gear-ratios",
     "./day-4-scratchcards",
     "./day-6-wait-for-it",
-    "./day-7-camel-cards"
+    "./day-7-camel-cards",
+    "./day-8-haunted-wasteland",
 ]

@@ -48,9 +48,7 @@ pub fn resolve() {
                 }
 
                 if adjacent_numbers.len() == 2 {
-                    println!("Founded a gear on: Line {} - Numbers: {:?}", line_idx + 1, adjacent_numbers);
                     let ratio: usize = *adjacent_numbers.first().unwrap() as usize * *adjacent_numbers.last().unwrap() as usize;
-                    println!("Ratio: {ratio}");
                     accum = accum + ratio as usize;
                 }
             }
